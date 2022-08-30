@@ -11,3 +11,51 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.k-i-more-vertical::before, .k-i-vbars::before {
+  content: "\e129" ;
+  color:white;
+}
+
+.k-grid-header .k-grid-filter:hover{
+  background: none;
+}
+.k-toolbar {
+  background-color:#fff ;
+  
+}
+
+.k-grouping-header{
+  background-color:#1890ff;
+  color: #fff;
+}
+
+.k-grid-header,.k-grid-header th.k-grid-header-sticky {
+  background-color:#208cf1e8;
+  color: #fff;
+}
+
+.k-grid .k-indicator-container {
+  margin: -8px 0;
+  padding: 8px 0;
+  margin-left: 12px;
+}
+
+.k-group-indicator {
+  background-color:#7a1ee442;
+}
+
+.k-pager-numbers .k-link {
+  color: black;
+}
+
+.k-pager-numbers .k-link.k-selected{
+  color:black;
+  background-color:#ebe8e8;
+  border-radius: 50%;
+}
+.k-pager-numbers .k-link:hover{
+  color:black;
+  background-color:#ebe8e8;
+  border-radius: 50%;
+}
