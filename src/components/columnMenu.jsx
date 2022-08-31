@@ -1,9 +1,9 @@
-import * as React from "react";
 import {
   GridColumnMenuFilter,
   GridColumnMenuCheckboxFilter,
 } from "@progress/kendo-react-grid";
-import products from "../utils/products.json";
+import orders from "../utils/orders.json";
+
 export const ColumnMenu = (props) => {
   return (
     <div>
@@ -14,11 +14,7 @@ export const ColumnMenu = (props) => {
 export const ColumnMenuCheckboxFilter = (props) => {
   return (
     <div>
-      <GridColumnMenuCheckboxFilter
-        {...props}
-        data={products}
-        expanded={true}
-      />
+      <GridColumnMenuCheckboxFilter {...props} data={orders} expanded={true} />
     </div>
   );
 };

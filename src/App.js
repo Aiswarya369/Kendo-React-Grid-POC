@@ -1,12 +1,8 @@
 import * as React from "react";
-
 import { Grid, GridColumn, GridToolbar } from "@progress/kendo-react-grid";
-
 import { ExcelExport } from "@progress/kendo-react-excel-export";
 import { ColumnMenu, ColumnMenuCheckboxFilter } from "./components/columnMenu";
-
 import { IntlService } from "@progress/kendo-react-intl";
-
 import { process } from "@progress/kendo-data-query";
 import orders from "./utils/orders.json";
 
@@ -128,6 +124,7 @@ const App = () => {
             locked={true}
             field="orderID"
             filter={"numeric"}
+            
             columnMenu={ColumnMenu}
             title="ID"
             width="90px"
